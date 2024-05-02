@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #333333;
+    font-size: 16px;
+    font-family:Tahoma, Verdana, Geneva, sans-serif;
+}
+
+header h1{
+    margin-top: 2.1276595744681%;
+    font-family: "Arial Black",Gadget, sans-serif;
+    font-size: 3em;
+    line-height: 0.83333333333em;
+    letter-spacing: 0.416666667em;
+    color: #333333;
+    cursor: pointer;
+    
+}
+
+header #navtamanios{
+    overflow: hidden;
+    color: #fff;
+    padding: 0.53191483617021%;
+}
+
+#contenedorgral{
+    background-color: #cccccc;
+    margin: 0 auto;
+    padding: 0.625em; /* unidad relativa son 10px*/
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+   
+}
+
+#navtamanios {
+    overflow: hidden;
+    padding: 0.531914893617021%;
+    display: flex;
+    justify-content: right;
+    background-color: #FFFFFF;
+ }
+ 
+ #navtamanios ul li{
+    display: inline;
+ }
+ 
+ #navtamanios ul li a {
+    color: #666666;
+    border: #666666 1px solid;
+     width: 1.875em;
+    margin-left: 0.0625em;
+    text-align: center;
+    cursor: pointer;
+    padding: 2px;
+ }
+ 
+ #navtamanios ul li a:hover {
+    background-color: #666666;
+    color: #FFFFFF;
+ }
+ 
+ #navtamanios ul li a.disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
+ }
+ nav{
+    background-color: #666;
+    color:#fff;
+    float: left;
+    width: 19.148936170212766%;
+    padding: 1.063829787234043%;
+    margin-right: 1.063829787234043%;
+  }
+  
+ nav ul{
+    list-style-type: none;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+     display: block;
+     color: white;
+     margin-bottom: 2.77777777778%;
+    padding: 2.77777777778%;
+     padding-left: 5.5555555555%;
+     border-left: 5px solid #fff;
+     list-style-type: none;
+  }
+  
+  nav ul li a:hover{
+    background-color: #999;
+  }
+  
+  nav ul li ul{
+    display:none;
+    margin-left: 5.55555555556%;
+  }
+  
+ nav ul li ul li{
+    border: none;
+  }
+        
+nav ul li ul li a{
+    border: none;
+    margin-bottom: 0;
+ }
+
+
+.navesconde{
+    display: none;
+    border-left: none;
+}
+
+section{
+    background-color: #bbb;
+    float: right;
+    width: 74.468085106382979%;
+    padding: 1.063829787234043%;
+}
+
+section p {
+    margin: 2.112676056338028% 0;
+    font-size: 14px;
+
+}
+
+section img{
+    float: left;
+    margin: 0 2.816901408450704% 1.408450704225352% 0;
+}
